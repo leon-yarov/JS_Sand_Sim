@@ -32,8 +32,8 @@ canvas.addEventListener("mouseup", e => {
 
 //mouse move event  
 canvas.addEventListener("mousemove", e => {
-    let ratioX = 600 / canvas.width;
-    let ratioY = 500 / canvas.height;
+    let ratioX = 1000 / canvas.width;
+    let ratioY = 900 / canvas.height;
     mouseX = e.offsetX / ratioX;
     mouseY = e.offsetY / ratioY;
     mouseX = Math.floor(mouseX) + 1;
