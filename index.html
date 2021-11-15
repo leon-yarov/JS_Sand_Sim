@@ -7,40 +7,19 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body>
+<body style="background-color: rgb(228, 198, 158);">
+    <h1 style="font-size: 50px;">JS Sand Simulation</h1>
+    <h2>Choose Game Version</h2>
     <table>
         <td>
-    <div>
-        <input type="color" id="sand_color" name="sand"
-               value="#964B00">
-        <label for="sand">Sand Color</label>
-    </div>
-</td>
-    <td><div>
-        <input type="color" id="stone_color" name="sand"
-               value="#000000">
-        <label for="sand">Stone Color</label>
-    </div></td>
-</table>
-    <label>Choose your tool:
-        <select class="tool" name="tool-picker", id='tools'>
-          <option value="Sand">Sand</option>
-          <option value="Stone">Stone</option>
-        </select>
-    </label>
-    <h1 style='font-family: Arial;'>Simple Sand Simulation</h1>
-    <ls>
-        <li>Hold Left mouse button to draw</li>
-        <li>Hold Right mouse button to erase</li>
-        <li>Press Space to clear</li>
-        <li>Mouse Wheel to change simulation speed</li>
-    </ls>
-    <canvas id="myCanvas" width="128" height="128"></canvas>
-    <script src="Version1/input.js"></script>
-    <script src="Version1/particle.js"></script>
-    <script src="Version1/script.js"></script>
-
+            <button class="button" onclick="window.location.href='v1.html'">Version 1</button>
+        </td>
+        <td>
+            <button class="button" onclick="window.location.href='v2.html'">Version 2</button>
+        </td>
+    </table>
     <p style="font-size: 10px; align-content: left;">A game by Leon Yarovinski</p>
-    
+
 </body>
+
 </html>
